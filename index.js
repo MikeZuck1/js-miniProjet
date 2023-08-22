@@ -23,10 +23,11 @@ const isDifferent = () => {
       } else {
           console.log(false);
       }
+    // doit imprimer : 
+    // true 
   }
 }; 
-isDifferent(); // appel à la fonction 
-
+isDifferent(); // appel à la fonction (isDifferen)
 
 let comparasonBetweenTwoNumbers = function() {
   let nombre1 = 12 
@@ -39,6 +40,8 @@ let comparasonBetweenTwoNumbers = function() {
       } else {
           console.log('Oups!');
       }
+    // doit imprimer: 
+    // Oups!
   }
 
   let halley = {
@@ -54,12 +57,12 @@ let comparasonBetweenTwoNumbers = function() {
       },
 
       incrementBehavior() {
-          this._behavior; 
+          this._behavior ++; // incremente _behavior de un 
       }
   }
   console.log(halley._name); 
-  // should print : 
+  // doit imprimer: 
   // Halley
 
 }
-comparasonBetweenTwoNumbers(); // appel à la fonction 
+comparasonBetweenTwoNumbers(); // appel à la fonction (comparasonBetweenTwoNumbers) 
